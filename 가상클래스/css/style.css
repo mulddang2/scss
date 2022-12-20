@@ -1,0 +1,44 @@
+/* Button */
+.btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.btn:hover {
+  background-color: rgb(29, 155, 155);
+  color: #fff;
+}
+
+/* Frame Div */
+.frame {
+  display: flex;
+  gap: 10px;
+}
+.frame div {
+  flex: 1;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.35s;
+}
+.frame div:hover {
+  color: red;
+  font-weight: bold;
+  transform: translateY(-10px);
+}
+.frame div:nth-child(1) {
+  background-color: orchid;
+}
+.frame div:nth-child(2) {
+  background-color: yellow;
+}
+.frame div:nth-child(3) {
+  background-color: palegreen;
+}
